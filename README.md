@@ -28,6 +28,7 @@ cargo build -r --bin shortner-url
 
 ## Technical Debts
 - Algorithm to generate short-url and avoid conflict;
+- Test mongo connection inside health check
 - Unit test;
 - Configure pipeline with test and linter;
 - Make Dockerfile;
