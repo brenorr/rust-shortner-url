@@ -1,0 +1,17 @@
+### Health Check
+GET {{base_url}}/_health
+Accept: application/json
+
+### Create Shortner URL
+POST {{base_url}}/url
+Content-Type: application/json
+
+{
+  "short_url": "xlA",
+  "destination": "https://globo.com/"
+}
+
+
+### Access Shortner URL
+GET {{base_url}}/xlA
+Accept: text/html
